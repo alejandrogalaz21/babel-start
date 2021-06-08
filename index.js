@@ -1,1 +1,1 @@
-console.log("Hello world");
+const nancyFuncion = props => 1 + props
