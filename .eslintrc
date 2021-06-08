@@ -16,7 +16,7 @@
   "rules": {
     "no-debugger": "warn",
     "no-console": "warn",
-    "no-eval": "warn",
+    "no-eval": "error",
     "import/first": "off",
     "import/no-named-as-default": "off",
     "import/no-unresolved": "off",
