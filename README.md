@@ -125,7 +125,7 @@ Create your Visual Studio Code config file .vscode/launch.js
 See : https://www.npmjs.com/package/nodemon
 
 ```
-yarn add nodemon -D
+$ yarn add nodemon -D
 ```
 
 ### Integrating Prettier and ESLint With VS Code
@@ -133,7 +133,7 @@ yarn add nodemon -D
 See : https://enlear.academy/integrating-prettier-and-eslint-with-vs-code-1d2f6fb53bc9
 
 ```
-yarn add eslint eslint-config-prettier eslint-plugin-prettier prettier -D
+$ yarn add eslint eslint-config-prettier eslint-plugin-prettier prettier -D
 ```
 
 ### Install Mongoose
@@ -143,7 +143,7 @@ Install : https://www.npmjs.com/package/mongoose
 Docs : https://mongoosejs.com/docs/guide.html
 
 ```
-yarn add mongoose
+$ yarn add mongoose
 ```
 
 ### Configure Babel for a Nodejs Application
@@ -155,7 +155,7 @@ See : https://dev.to/adebayoileri/configure-babel-for-nodejs-application-3798
 See : https://www.npmjs.com/package/chalk
 
 ```
-yarn add chalk
+$ yarn add chalk
 ```
 
 ### Install dotenv
@@ -165,7 +165,7 @@ Dotenv is a zero-dependency module that loads environment variables from a .env 
 See : https://www.npmjs.com/package/dotenv
 
 ```
-yarn add dotenv
+$ yarn add dotenv
 ```
 
 # Refs :
