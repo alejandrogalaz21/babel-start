@@ -98,8 +98,8 @@ MONGO_DB_PASSWORD=yourDBPassword
 
 Run the Application in development mode :
 
-```
-$ git clone https://example.com
+```bash
+$ git clone https://github.com/alejandrogalaz21/js-babel-node
 $ cd ../path/to/the/file
 $ yarn
 $ yarn dev
@@ -109,7 +109,7 @@ Run the aplication in debug :bug: mode in [Visual Studio Code](https://code.visu
 
 Create your Visual Studio Code config file .vscode/launch.js
 
-```
+```JSON
 {
   "configurations": [
     {
@@ -144,42 +144,100 @@ Create your Visual Studio Code config file .vscode/launch.js
 
 ---
 
+### Integrating Prettier and ESLint With VS Code
+
+Make sure you gave installed the eslint and prettier extensions for vsCode
+
+See : https://enlear.academy/integrating-prettier-and-eslint-with-vs-code-1d2f6fb53bc9
+
+```bash
+$ yarn add eslint eslint-config-prettier eslint-plugin-prettier prettier -D
+```
+
+Create your .eslintrc file :
+
+```json
+{
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "plugins": [],
+  "extends": [],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "no-debugger": "warn",
+    "no-console": "warn",
+    "no-eval": "error",
+    "import/first": "off",
+    "import/no-named-as-default": "off",
+    "import/no-unresolved": "off",
+    "no-unused-vars": "warn"
+  },
+  "globals": {
+    "fixture": "writable"
+  }
+}
+```
+
+Create your .prettierrc file :
+
+```json
+{
+  "bracketSpacing": true,
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "none",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "arrowParens": "avoid"
+}
+```
+
 ### Install nodemoon
 
 See : https://www.npmjs.com/package/nodemon
 
-```
+```bash
 $ yarn add nodemon -D
-```
-
-### Integrating Prettier and ESLint With VS Code
-
-See : https://enlear.academy/integrating-prettier-and-eslint-with-vs-code-1d2f6fb53bc9
-
-```
-$ yarn add eslint eslint-config-prettier eslint-plugin-prettier prettier -D
-```
-
-### Install Mongoose
-
-Install : https://www.npmjs.com/package/mongoose
-
-Docs : https://mongoosejs.com/docs/guide.html
-
-```
-$ yarn add mongoose
 ```
 
 ### Configure Babel for a Nodejs Application
 
 See : https://dev.to/adebayoileri/configure-babel-for-nodejs-application-3798
 
-### Install chalk for logs
-
-See : https://www.npmjs.com/package/chalk
-
+```bash
+$ yarn add @babel/cli @babel/core @babel/node @babel/plugin-transform-runtime
+$ yarn add @babel/polyfill @babel/preset-env @babel/runtime
 ```
-$ yarn add chalk
+
+Create your .babelrc file :
+
+```json
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": [["@babel/transform-runtime"]],
+  "env": {
+    "debug": {
+      "sourceMaps": "inline",
+      "retainLines": true
+    }
+  }
+}
 ```
 
 ### Install dotenv
@@ -190,6 +248,14 @@ See : https://www.npmjs.com/package/dotenv
 
 ```
 $ yarn add dotenv
+```
+
+### Install chalk for logs
+
+See : https://www.npmjs.com/package/chalk
+
+```
+$ yarn add chalk
 ```
 
 # Refs :
