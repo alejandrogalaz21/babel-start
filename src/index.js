@@ -1,4 +1,4 @@
-import { sum } from './helpers'
+import { sum } from './utils'
 
 let a = 10
 let b = 20
