@@ -240,6 +240,22 @@ Create your .babelrc file :
 }
 ```
 
+## Jest
+
+See : https://jestjs.io/docs/getting-started
+
+To use Babel, install required dependencies via yarn:
+
+```bash
+$ yarn add jest babel-jest -D
+```
+
+Based on your project, Jest will ask you a few questions and will create a basic configuration file with a short description for each option:
+
+```bash
+$ jest --init
+```
+
 ### Install dotenv
 
 Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. Storing configuration in the environment separate from code is based on The Twelve-Factor App methodology.
