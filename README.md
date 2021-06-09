@@ -1,20 +1,33 @@
+<h3 align="center">Babel Node ES6 Example</h3> 
 <p align="center">
-  <a href="https://github.com/alejandrogalaz21/mongoose-example">
+  <a href="https://github.com/alejandrogalaz21/js-babel-node">
     <img src="https://media.giphy.com/media/13HBDT4QSTpveU/giphy.gif" alt="cat developer" width=350 height=250>
   </a>
 
-  <h3 align="center">Mongoose ES6 Example</h3>
-
   <p align="center">
-    This is a practice repo using a mongodb object modeling for node.js
+    This is a practice repo for node.js
     <br>
-    <a href="https://github.com/alejandrogalaz21/mongoose-example/issues">Report bug</a>
+    <a href="https://github.com/alejandrogalaz21/js-babel-node/issues">Report bug</a>
     ·
-    <a href="https://github.com/alejandrogalaz21/mongoose-example/pulls">Request feature</a>
+    <a href="https://github.com/alejandrogalaz21/js-babel-node/pulls">Request feature</a>
     <br>
     Author 
     <br>
     <a href="https://github.com/alejandrogalaz21">Alejandro Galaz</a>
+      <p align="center">
+        <a href="https://github.com/alejandrogalaz21">
+          <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />    
+        </a>
+        <a href="https://gitlab.com/alejandrogalaz21">
+          <img src="https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white" />    
+        </a>
+        <a href="https://www.linkedin.com/in/jesus-alejandro-galaz-icedo-496b94115/">
+          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />    
+        </a>
+        <a href="https://alejandrogalaz21@gmail.com">
+          <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />    
+        </a>
+    </p>
   </p>
 </p>
 
@@ -27,6 +40,8 @@
 5. [Refs](#refs)
 6. [Bugs and feature requests](#bugs-and-feature-requests)
 7. [Refs](#refs)
+8. [Legal](#legal)
+9. [Thanks](#thanks)
 
 ### General Info
 
@@ -57,7 +72,16 @@ src/
 
 A list of technologies used within the project:
 
-- [Node.js ](https://example.com): Version 14.15.4
+ <p align="">  
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> 
+    <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node-dot-js&logoColor=white" /> 
+    <img src="https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white"/> 
+    <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white"/> 
+  </p>
+
+Requiriments:
+
+[![node.js](https://img.shields.io/badge/node.js-v14.15.4-<COLOR>)](https://nodejs.org/es/)
 
 ## Installation
 
@@ -173,11 +197,16 @@ $ yarn add dotenv
 - https://www.toptal.com/developers/gitignore
 - https://www.markdownguide.org/basic-syntax/
 - https://gist.github.com/rxaviers/7360908
+- https://github.com/Naereen/badges/blob/master/README.md
+- https://shields.io/
+- https://github.com/alexandresanlim/Badges4-README.md-Profile
 
 # Bugs and feature requests
 
-Have a bug or a feature request? Please first read the [issue guidelines](https://github.com/alejandrogalaz21/mongoose-example/pulls) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/alejandrogalaz21/mongoose-example/issues).
+Have a bug or a feature request? Please first read the [issue guidelines](https://github.com/alejandrogalaz21/js-babel-node/pulls) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/alejandrogalaz21/js-babel-node/issues).
 
-# Thanks
+# [](https://github.com/pranavms13/whatsapp-node-api#legal)📃 Legal
 
-Some Text
+This code is in no way affiliated with, authorized, maintained, sponsored or endorsed or any of its affiliates or subsidiaries. This is an independent and unofficial software. Use at your own risk. **Commercial use of this code/repo is strictly prohibited.**
+
+## Thanks 👋
